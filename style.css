@@ -191,6 +191,11 @@ body{
     background-color: inherit;
     margin: 0;
   }
+
+  .hero-h{
+    width: 100%;
+    height: 85vh;
+  }
   
   .dropdown-content {
     position: absolute;
