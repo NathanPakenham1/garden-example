@@ -188,7 +188,6 @@ body{
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
     background-color: inherit;
     margin: 0;
   }
@@ -199,17 +198,24 @@ body{
     top: -100%;
     background-color: #0E0E0E;
     min-width: 100%;
-    min-height: 500px;
+    max-height: 70%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     transition: 0.6s ease-in-out;
+  }
 
+
+  .drop-h{
+    max-height: 550px;
+  }
+
+  .tests{
+    max-height: fit-content;
   }
   
   .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
